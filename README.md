@@ -1,5 +1,4 @@
 ﻿# <a name="_uadaxqh83qq5"></a>**Project Proposal**
-**Anomaly-Driven Video Summarization for Real-Time Surveillance Systems**
 
 ### <a name="_cb9h3wjs49sk"></a>**Title:** Anomaly-Driven Video Summarization for Real-Time Surveillance Systems
 ### <a name="_lferb7p2o0y2"></a>**Team:**
