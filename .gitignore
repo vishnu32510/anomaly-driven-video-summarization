@@ -5,3 +5,5 @@ __pycache__
 /input_output/
 .pyc
 .DS_Store
+/summarized_videos/
+/models/

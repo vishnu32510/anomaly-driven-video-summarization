@@ -112,7 +112,7 @@ def summarize_video(frames_dir, ranked_indices, output_video_path, num_keyframes
 # summarize_video(output_dir, ranked_indices, "input_output/output/Arson002_x264/car_a.mp4")
 def summarize_from_path(video_path):
     foldername = video_path.split("/")[-1].split('.')[0]
-    output_dir = f'/Users/vishnu/garage/cs512-f24-sellamshanmugavel-vishnupriyan/project/src/input_output/{foldername}'
+    output_dir = f'/Users/vishnu/garage/cs512-f24-sellamshanmugavel-vishnupriyan/project/src/summarized_videos/{foldername}'
     output_dir_frames = os.path.join(output_dir,'frames')
     output_video_path = os.path.join(output_dir,'summary.mp4')
     print(foldername)
