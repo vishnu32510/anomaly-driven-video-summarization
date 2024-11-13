@@ -1,6 +1,9 @@
 import numpy as np
 from tensorflow.keras.layers import Input, Conv3D, MaxPooling3D, Flatten
 from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Conv3D, MaxPooling3D, Flatten, Dense, GlobalAveragePooling3D
+from tensorflow.keras.applications import ResNet50
+from tensorflow.keras.layers import Concatenate
 
 def build_c3d_feature_extractor(input_shape=(32, 64, 64, 3)):
     inputs = Input(shape=input_shape)
@@ -23,6 +26,7 @@ def build_c3d_feature_extractor(input_shape=(32, 64, 64, 3)):
 
     # Flatten to get feature vector
     x = Flatten()(x)
+    x = Dense(4096, activation='relu')(x)
     model = Model(inputs, x, name="C3D_Feature_Extractor")
 
     return model
