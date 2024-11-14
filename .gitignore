@@ -1,9 +1,7 @@
 .ipynb_checkpoints
-/cv_env
+cv_env
 __pycache__
-/dataset/
-/input_output/
+dataset
 .pyc
 .DS_Store
-/summarized_videos/
-/models/
+models
