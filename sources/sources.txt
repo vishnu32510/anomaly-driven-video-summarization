@@ -1,0 +1,3 @@
+raw_data: https://www.dropbox.com/scl/fo/2aczdnx37hxvcfdo4rq4q/AOjRokSTaiKxXmgUyqdcI6k?rlkey=5bg7mxxbq46t7aujfch46dlvz&e=3&dl=0
+article 1: https://blog.qure.ai/notes/deep-learning-for-videos-action-recognition-review#c3d
+article 2: https://sh-tsang.medium.com/paper-c3d-learning-spatiotemporal-features-with-3d-convolutional-networks-video-classification-72b49adb4081
